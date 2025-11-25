@@ -83,6 +83,2071 @@
 		)
 	)
 	(net 0 "")
+	(net 1 "-BATT")
+	(net 2 "Net-(BT1-Pad+)")
+	(net 3 "Net-(BT2-Pad+)")
+	(net 4 "Net-(BT3-Pad+)")
+	(net 5 "Net-(BT4-Pad+)")
+	(net 6 "Net-(BT5-Pad+)")
+	(net 7 "Net-(BT6-Pad+)")
+	(net 8 "Net-(BT7-Pad+)")
+	(net 9 "Net-(BT8-Pad+)")
+	(net 10 "Net-(BT10-Pad-)")
+	(net 11 "Net-(BT10-Pad+)")
+	(net 12 "Net-(BT11-Pad+)")
+	(net 13 "+BATT")
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "42056825-7204-49c4-b799-fed9cdc9efbc")
+		(at 215 109.8)
+		(property "Reference" "BT12"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0e9a5516-4d2d-4a5c-ab3d-0b0775b4c438")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "54168ebc-1e6f-4221-ac50-76cc5eafe023")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b83a645d-4fc7-4d20-94c3-5f3e2b06bc1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "63a23a49-6e7d-49f5-89c5-aeb2432457a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9cc91af1-b2df-43aa-a422-ece01a365a83")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "4b576f25-9e0d-485e-a738-603dfc3cfa25")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "4b019361-d19c-4a91-91e0-547c093e6c9f")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "098684ea-d4de-4d91-b297-756449933754")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "369aa8c6-e949-48eb-8b5f-eda14aa026d3")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f86ebc4d-4651-448a-844a-a29dbdc772ab")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "5c2cc910-8243-42e6-9b1c-5ed046c18cdc")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b14ff968-7c06-4c06-9ec8-4b9fa1106dd9")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "91967d5b-73e5-4434-be2a-c14bfe03754b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 13 "+BATT")
+			(pintype "passive")
+			(uuid "05c9df32-4803-45c7-9cba-dab968aad808")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 12 "Net-(BT11-Pad+)")
+			(pintype "passive")
+			(uuid "f1fb5a73-b76f-41e4-b4ca-6121c2d312f9")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "4581005a-0f0a-4063-b43f-cfe3771d36c1")
+		(at 222.100576 242.2)
+		(property "Reference" "BT8"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "df33549b-7229-46ba-9617-82161eb91a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "3676973a-e0da-4d8c-9ca2-da46088f09be")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e046b560-aea8-4363-b6bb-6991486f9beb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f5f1e02-910b-4568-925a-b081ebce22ed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/c40fab2e-f766-48c7-b7b3-d7e818dd536c")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "55080b11-c69c-4f10-b667-8b5c2b678ac0")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "fa81a2c2-7ae4-41c1-9aca-6af6c2e21dc9")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1194f720-af71-410c-a3c0-3046b28f840f")
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "4df0399a-d6c5-4ee0-bcbb-c659be14ae77")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ff40d1f5-0522-4c8a-b75b-9e960c76d439")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "6de1b895-d6e2-4cae-bbda-4c46850f95cf")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "f12a2e4c-cb8a-45dc-a1be-206ae592ab9b")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "344b332a-0b2a-40b3-a3ac-cd6084143453")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "Net-(BT8-Pad+)")
+			(pintype "passive")
+			(uuid "5c4ca3c8-87af-4405-8d8f-335d4d4cd5c3")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "Net-(BT7-Pad+)")
+			(pintype "passive")
+			(uuid "6cfac9c2-2758-40e7-95ea-04b9832c744d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "59ab9c55-f658-4b7d-b2fb-4ac6cc4ca519")
+		(at 222.100576 307.8)
+		(property "Reference" "BT9"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "66504b45-427a-4c05-af60-514e736a5846")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "153318c6-83a7-43ac-a5fc-1f1d04a9ee6b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ede2f44-e6c3-45cb-830b-a60aba48bff4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f8307aa-ba00-4d7c-bb17-98b3f4230b58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f5a03cb6-f05f-4aa8-be77-74daa4d6784f")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "51995f0a-080d-42d0-a850-6e7fcb6e0bbd")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "39cae8d3-768f-4dc4-ae2b-5c312b437135")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "58ffdee6-0a80-4024-b900-fef5c17c13cc")
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "49141f3d-e7de-4b11-9b4e-342b3929f076")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "84b0343e-5368-4451-96c8-44e326165baf")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "6ff0166f-d90a-4ff4-be4f-a6ebf0dc9a8b")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "735f911b-f7ed-4c35-a97f-7ecbf88cc46e")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8a2f9127-b743-4d46-99e7-565c7a59e9c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "Net-(BT10-Pad-)")
+			(pintype "passive")
+			(uuid "94a3a1a7-5540-4e41-b7a7-fa97502ea803")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 9 "Net-(BT8-Pad+)")
+			(pintype "passive")
+			(uuid "b204b99a-45a7-4056-bc6f-b89f9271584e")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "5a3e29e2-f610-479c-bd08-d97503d4535f")
+		(at 74 176.6)
+		(property "Reference" "BT1"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "0e6d6941-d156-48b6-b8f4-92bb7e69fbd4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "e0b62df9-5b78-493e-9f9e-053b4a5021e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f430a5f-3976-40f5-af25-9f79b7f8748c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0c3f8de-1f6d-451c-8f14-2e2c899afc5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/71fa7fe4-129e-4915-92b2-3b1752daefe5")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "cd266970-42d7-45c1-86d8-302630fb78f3")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "750c509c-8504-403c-b31f-87b84f42cf65")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ecc522e6-c862-4aa5-9401-2fa5dd03f3bf")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2673daff-c083-426c-8d3d-97656bd272e4")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "2cda90ab-f39c-4f44-9996-5c9441dc2e8c")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "876a32d7-cfc3-4615-a5cb-836cd46f08a0")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "de3e81ad-9a15-407a-941b-7d79a581510d")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4ea0448c-0805-4947-98e0-ffd7231ac74d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "Net-(BT1-Pad+)")
+			(pintype "passive")
+			(uuid "59ce2e80-d4a0-497a-9d4a-85da01f7c587")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 1 "-BATT")
+			(pintype "passive")
+			(uuid "3d2fe339-a89e-4db2-b169-e71938dc7661")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "6a5021fa-e495-44be-8c4a-29b1b0b5946b")
+		(at 148.050288 176.6)
+		(property "Reference" "BT4"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "5ef1ccd9-0665-4529-a091-a0b37d1c4ec6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "656ab38b-6548-457f-986e-38cf116a246f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "258554dc-143f-4ac3-94b9-88bd76449cd1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fc4eab6-fd9f-4194-8a8d-6e8f6a3daedf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/65b2ac0b-7020-4c10-ac2d-bc6d2ed93d2c")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "7508bb7b-3143-459d-b8e8-a311668b9fca")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "05b5a1b9-e900-4e02-b144-2b67ee9f9181")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "2564ee52-4243-4bd5-a376-638061861b73")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c69db833-9ede-4f03-ac8b-2d8d651ba94f")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "da5c296a-f20f-4b74-b0e6-f6d056cd3e59")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "a3f9b442-0e30-4ec9-8eda-b969dd5e435d")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "c1c5d75a-754f-47ff-8eb5-8de3b0db8a6d")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f767c758-e40e-4645-9e46-7e0d8192cdee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(BT4-Pad+)")
+			(pintype "passive")
+			(uuid "1406bd07-e698-45ea-acc4-5f48219dd3d7")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "Net-(BT3-Pad+)")
+			(pintype "passive")
+			(uuid "4af20dab-a760-4459-bf73-5916cbb32c9f")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "87411291-b2ea-4f04-8631-9a9419bbf3c8")
+		(at 74 307.8)
+		(property "Reference" "BT3"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "235116d5-8825-477f-a855-df53cd3b1caa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f8665c35-063c-4396-ad67-30efb73b25b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6d6a0b4-10f9-40f5-96c8-d309d212da71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ca11958-34f6-4797-a112-fa52f819fbf5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/f828d9a4-39e2-4f19-ba7e-d3a8e1c95070")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "c526d6d2-1d71-441c-89f9-783171bdb68f")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "467b5f61-1338-417e-97fb-665cc1fc53f6")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "ce90f653-78b4-454b-9147-4e4d77a15394")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "834acb3b-dccc-4250-a1b2-41b3872f526e")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "d085c147-74a8-4e94-8340-84f2821a772c")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "a43eb66e-3c47-4d31-a6e2-80bdb5857c7d")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ef71b443-74bc-4d94-b799-316e24445706")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "14a1824d-725f-428d-9de3-c0c1ebeee02a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 4 "Net-(BT3-Pad+)")
+			(pintype "passive")
+			(uuid "1bf9f375-0f0c-4c96-b5da-c318faf64ff2")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "Net-(BT2-Pad+)")
+			(pintype "passive")
+			(uuid "e0745666-23ac-41b0-9b4d-d21db0b42dee")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "8f116853-ee99-440d-a077-006ca9448161")
+		(at 74 242.2)
+		(property "Reference" "BT2"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8f355df6-e0fc-4afe-8994-f5cfe737c592")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "57d4ac87-fd14-4e3f-b496-96716a610e80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e1118a8-b1ef-43df-8c24-1c16c8b6a3bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01ea830d-8475-4651-8889-f48fa5508a41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/9d6eba7f-6d7d-44dd-9fea-d61941cb7760")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "fbe37843-026a-41c5-9d94-7389a73dad37")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "c87e24ff-7f61-4e2f-91f4-c179ff72ed6e")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8222e463-6cc3-44d5-98eb-66a81ba5212a")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "429abbf7-7baf-4037-9aac-c98e4ceeaba4")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "ed6ba99c-31b7-4a6c-9275-58e84ac00f4a")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "62e9cccf-1464-4325-b1ca-e32a7716462d")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "cc50b306-7991-449b-a553-802a1d4ea65f")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "9eb5d9f6-b2ed-44c0-825b-c848be1087b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 3 "Net-(BT2-Pad+)")
+			(pintype "passive")
+			(uuid "446f8be5-3c64-4672-825f-5efe4c26f12d")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 2 "Net-(BT1-Pad+)")
+			(pintype "passive")
+			(uuid "98044590-0a37-4dc4-b026-450c8c688f50")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "abf59eec-95f7-4ff8-9fe3-cf5307e4ca75")
+		(at 73 110.8)
+		(property "Reference" "BT10"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3d17b2f4-0906-47a1-aae2-fa9f226564b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "82356ea1-a86e-46b7-b9a3-1ec234861938")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8276b4e4-84f4-41e7-becf-46ff240276ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6e7524a-1a5b-42ba-89b7-0dbdd460023b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/2d64aaf3-d72e-49b2-9caf-8723031ade07")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "68aeb3ce-71e7-4c72-bd6c-43e204722fb2")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "8862e1c5-442f-4872-8955-5495ecb6c9ed")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "97158727-d66c-4d88-86a4-e6dcada100d6")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "1dd15c4a-9c98-4cd1-a74f-3c35b4a28fa0")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "f9850557-ac7b-487a-8896-be2964044dca")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "af64bb32-a4cb-4ff1-a0a0-73b1c3fb6756")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "f47b4953-4e95-4a4a-a761-92f3df4a2dac")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8d10d66f-afed-4ba3-b482-16d6eba03733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 11 "Net-(BT10-Pad+)")
+			(pintype "passive")
+			(uuid "c65388f8-a431-446b-83f4-3b27afa7cf3e")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 10 "Net-(BT10-Pad-)")
+			(pintype "passive")
+			(uuid "c6456211-a0fb-492d-94bd-7936a5916f48")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "b23c826e-46a6-4e48-ba78-469fe58196a9")
+		(at 222.100576 176.6)
+		(property "Reference" "BT7"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "47cad19c-8c36-406f-a7f9-a0929fd837d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c7183ec4-e6a2-4f68-b59e-d7d24ff31d71")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "192cab44-3e9b-4d4e-87d0-942cb96f022b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5edd62b-a744-4625-a749-3d0d1e86f69c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/d3d35fd5-afb2-431b-801c-ede15d39d99f")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "6b36c09c-0815-4950-8d29-c755a1f3f763")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "a92500b9-b819-4c27-8ad8-26d9842640da")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "7a2ddd09-2700-4f85-9647-0732a1551873")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "47cb9d68-1d62-473f-a04f-3e24733b176c")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "83a11aef-4295-48b4-8e58-46ce19196132")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "65a816f4-1012-4595-82f7-c40012c2ba21")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ee9c40fe-0f86-43a4-80ae-47879c80f7e2")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "68bab4ee-8ca6-4880-aa6e-ed90ee13b278")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 8 "Net-(BT7-Pad+)")
+			(pintype "passive")
+			(uuid "f0c11660-436d-44d5-9b47-81f9b2349c91")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "Net-(BT6-Pad+)")
+			(pintype "passive")
+			(uuid "75475098-a1d0-4f95-a2b4-65852ffc4b31")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "c4081f0a-afca-4e80-8373-d5a614c65bf2")
+		(at 146 109.8)
+		(property "Reference" "BT11"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c48df20b-535e-421a-aa58-635e8d185b8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "00c7f5c2-86ad-4538-9645-dcaa2152a33a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17a4ac7f-4bf2-4cbc-b921-3f02c840fabb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "277ed199-c343-4119-9885-51cfbcf3d03b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/785bc35c-2ade-44a1-9ecb-18f9ceabc0b2")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "7190a347-9dd4-4ceb-b29a-0f434a536654")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "3c7a060c-7bca-44f7-80b5-fe0ae471ef98")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "26087c3d-df19-4a9d-89b4-9ec100e4e21c")
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "3005da5e-0374-408d-a17a-ea6573d805d1")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "a6178aae-8472-4cc2-8bc8-bc6d22124112")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "368fbbf6-d62d-476f-ac33-274ab7a0b729")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "84e868ba-ebdd-4b71-80e1-449f94f152b9")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ab897d3d-12a4-4cd8-b200-c9f83a09d483")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 12 "Net-(BT11-Pad+)")
+			(pintype "passive")
+			(uuid "02ec3cbf-028e-4b84-b692-b32c4d52dc20")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 11 "Net-(BT10-Pad+)")
+			(pintype "passive")
+			(uuid "a46b0ff5-d6e7-463f-af23-62e1e00ebf64")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "d2df4553-798f-43e8-8fec-03457f5fd54b")
+		(at 148.050288 242.2)
+		(property "Reference" "BT5"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "208e495d-f7cb-44fe-8b4b-776f5381ba28")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a7c92925-4943-4e27-9199-bf2a4c98ac2d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9aa8921c-a6c0-42ac-9b13-7a9a2a3a69ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3723820d-eb54-4f38-8ab2-0fdb37800e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/dccd3e06-4e15-48e5-a823-cc7607bef398")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "27efbb22-7c97-4538-a823-ebf2eedeaed3")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "1d59f004-6a81-4731-9d99-2caab752ed78")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "570cf49b-f00c-4f3e-a7fe-949fd0b061fb")
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "555ef202-4dc7-4188-a4dd-bbf6557ee040")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "cbc6ad07-e454-4c3b-a695-9a2460503b70")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "2593a2a6-cfb5-40e2-8dd0-ea562075838c")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "b617ff3e-ac7e-48ad-b8d2-cee7d0a97690")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fe185573-a5a6-432f-ad3c-dd63b442c943")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Net-(BT5-Pad+)")
+			(pintype "passive")
+			(uuid "1edc9f80-e036-4ba3-b602-a237bba068fa")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 5 "Net-(BT4-Pad+)")
+			(pintype "passive")
+			(uuid "8c80aa16-a659-439f-b38f-8185e31579fe")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Unicycle:P Group"
+		(layer "F.Cu")
+		(uuid "fa1f458c-cab9-4012-8c97-955ebaa87dee")
+		(at 148.050288 307.8)
+		(property "Reference" "BT6"
+			(at 0 37 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "c7307a4c-6091-4cf0-b75f-5e6693ac2221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 38.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "8fc67225-73c0-40a5-91da-647c47fdf0fd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08308ba0-7848-446d-bc4b-267d6da38fff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5224e6ae-d60c-497d-b801-71c532fc9ceb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/ca9e9251-6c3c-4b7c-918c-e0f59fde224a")
+		(sheetname "/")
+		(sheetfile "Unicycle Battery.kicad_sch")
+		(attr smd)
+		(fp_rect
+			(start -36 -32.25)
+			(end 36 32.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "B.SilkS")
+			(uuid "e0900cdf-efbf-497a-9571-24dd51464d61")
+		)
+		(fp_rect
+			(start -36.500144 -21.504223)
+			(end -35.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "b4f37513-24cc-4494-93fa-9788adfab229")
+		)
+		(fp_rect
+			(start 35.500144 -21.504223)
+			(end 36.500144 21.495777)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "Edge.Cuts")
+			(uuid "d3b91959-fef0-4e4e-b47c-49498f75ec4e")
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "769ffe68-ef91-4b6c-8fe2-5b0619ab443c")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "bcda4877-51ee-415d-8cb4-1b17def3b967")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+			)
+		)
+		(fp_text user "+"
+			(at -10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "4dbdcdee-42ed-4c87-aa5a-f42e0f0a82b1")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "-"
+			(at 10 -0.75 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "ec5c1032-6997-4406-9f8e-548c9eb9ef46")
+			(effects
+				(font
+					(size 10 10)
+					(thickness 0.5)
+				)
+				(justify mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 40 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c85bcde3-f941-4214-8d51-7aacab3f2cd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "+" smd rect
+			(at -25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 7 "Net-(BT6-Pad+)")
+			(pintype "passive")
+			(uuid "1817e1fc-56d4-4307-9ed6-654e4ae8dd35")
+		)
+		(pad "-" smd rect
+			(at 25 0)
+			(size 19 43)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 6 "Net-(BT5-Pad+)")
+			(pintype "passive")
+			(uuid "94514d72-4225-4c20-ba30-38d56ddbe200")
+		)
+		(embedded_fonts no)
+	)
 	(gr_rect
 		(start 32 51.8)
 		(end 262 341.8)
