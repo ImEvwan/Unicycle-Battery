@@ -1,0 +1,235 @@
+(footprint "P Group Even"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "BT**"
+		(at 0 37 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "08ff0709-fd94-4dc2-a696-85edd7538a4b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "P Group Even"
+		(at 0 38.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "516d9a38-e1c2-4aea-8d66-203d766a0761")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "19769a5d-9056-4675-b6ab-c51570568f86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39c403dc-7ab3-4f3c-9cd6-e468d960dee3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -36 -32.25)
+		(end 36 32.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6a28742a-7412-4993-a73c-006e51f3285e")
+	)
+	(fp_line
+		(start 35.500144 -21.254223)
+		(end 35.500144 21.245778)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "effd4d90-bb6e-431c-ab09-0f0f65209e39")
+	)
+	(fp_line
+		(start 35.750143 21.495777)
+		(end 36.250144 21.495777)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ca3dc153-274d-4610-99ba-e5962e1b5faa")
+	)
+	(fp_line
+		(start 36.250144 -21.504223)
+		(end 35.750144 -21.504223)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "1cafd983-5bfc-4e26-aecb-421fbb2ab54b")
+	)
+	(fp_line
+		(start 36.500144 21.245778)
+		(end 36.500144 -21.254223)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b8212865-941f-4120-aa9b-492b58773528")
+	)
+	(fp_arc
+		(start 35.500144 -21.254223)
+		(mid 35.573367 -21.431)
+		(end 35.750144 -21.504223)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "50502850-12f0-4fee-ac50-390372483f8d")
+	)
+	(fp_arc
+		(start 35.750144 21.495777)
+		(mid 35.573367 21.422554)
+		(end 35.500144 21.245777)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7730f484-f991-4dc2-b420-f77e4b90dd1b")
+	)
+	(fp_arc
+		(start 36.250144 -21.504223)
+		(mid 36.426921 -21.431)
+		(end 36.500144 -21.254223)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e839e12e-7802-414a-ba08-1ca9b97099b7")
+	)
+	(fp_arc
+		(start 36.500144 21.245777)
+		(mid 36.426921 21.422554)
+		(end 36.250144 21.495777)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e426628e-ec0c-4da0-a586-37ab324285f0")
+	)
+	(fp_text user "-"
+		(at 10 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6b569ab6-8a9c-4954-8432-a0d11600a73d")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.5)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -10 -0.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b72cd320-6378-4512-882e-5f7dfcf40f2e")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.5)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -10 -0.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "41ce0717-a55f-4011-8e26-efbc65f0d05b")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.5)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "-"
+		(at 10 -0.75 0)
+		(unlocked yes)
+		(layer "B.SilkS")
+		(uuid "9b7aa56e-828a-46fd-be99-7922296f0b77")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.5)
+			)
+			(justify mirror)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 40 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6ff93e54-ad5a-414a-9096-ef5e2a739d80")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "-" smd rect
+		(at 25 0)
+		(size 19 43)
+		(layers "F.Cu")
+		(uuid "04321ed6-08c8-4325-a4e9-43d1542b5122")
+	)
+	(pad "-" smd rect
+		(at 25 0)
+		(size 19 43)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "681f88ca-731b-402e-813e-06e7ca121480")
+	)
+	(group ""
+		(uuid "71eefb8f-7b6c-40db-ab5f-4dfca8e77cb2")
+		(members "1cafd983-5bfc-4e26-aecb-421fbb2ab54b" "50502850-12f0-4fee-ac50-390372483f8d"
+			"7730f484-f991-4dc2-b420-f77e4b90dd1b" "b8212865-941f-4120-aa9b-492b58773528"
+			"ca3dc153-274d-4610-99ba-e5962e1b5faa" "e426628e-ec0c-4da0-a586-37ab324285f0"
+			"e839e12e-7802-414a-ba08-1ca9b97099b7" "effd4d90-bb6e-431c-ab09-0f0f65209e39"
+		)
+	)
+	(embedded_fonts no)
+)

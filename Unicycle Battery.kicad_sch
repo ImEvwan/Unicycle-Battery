@@ -4,7 +4,804 @@
 	(generator_version "9.0")
 	(uuid "d1cd8537-56f0-4291-8d25-fe29b385b4b9")
 	(paper "A4")
+	(title_block
+		(title "Unicycle Battery PCB")
+		(date "2025-12-25")
+		(rev "V1.0")
+	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Conn_01x13_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x13_Socket"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x13, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x13_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 15.24) (xy -0.508 15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 12.7) (xy -0.508 12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 10.16) (xy -0.508 10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 7.62) (xy -0.508 7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -0.508 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -10.16) (xy -0.508 -10.16)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -12.7) (xy -0.508 -12.7)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -15.24) (xy -0.508 -15.24)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 14.732)
+					(mid -0.5058 15.24)
+					(end 0 15.748)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 12.192)
+					(mid -0.5058 12.7)
+					(end 0 13.208)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 9.652)
+					(mid -0.5058 10.16)
+					(end 0 10.668)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 7.112)
+					(mid -0.5058 7.62)
+					(end 0 8.128)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 4.572)
+					(mid -0.5058 5.08)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -10.668)
+					(mid -0.5058 -10.16)
+					(end 0 -9.652)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -13.208)
+					(mid -0.5058 -12.7)
+					(end 0 -12.192)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -15.748)
+					(mid -0.5058 -15.24)
+					(end 0 -14.732)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 15.24 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Unicycle:Batt"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -379,9 +1176,97 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 22.86 50.8)
+		(end 62.23 90.17)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bc9c4fa-6648-41ae-8e9e-fa3af004c149)
+	)
+	(rectangle
+		(start 67.31 50.8)
+		(end 97.79 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c10f11e-38c8-40ad-b8ac-6d1603fe2172)
+	)
+	(rectangle
+		(start 102.87 50.8)
+		(end 133.35 71.12)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bc56df08-ab5f-40f9-a3b0-c5674120e6b7)
+	)
+	(rectangle
+		(start 22.86 25.4)
+		(end 160.02 45.72)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d1ce03a9-0fad-453a-ab27-c7c5ee3772aa)
+	)
+	(text "Balance Connector"
+		(exclude_from_sim no)
+		(at 31.75 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53a8398c-b67b-4582-9e45-5a587557aef8")
+	)
+	(text "Battery Cells"
+		(exclude_from_sim no)
+		(at 28.956 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9a6c4b65-bb84-46ed-9fef-48d7746e12af")
+	)
+	(text "Discharge Connector\n"
+		(exclude_from_sim no)
+		(at 76.962 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a21d3e3b-2cbb-4fc1-9d98-07e0a3e74413")
+	)
+	(text "Charge Connector\n"
+		(exclude_from_sim no)
+		(at 112.522 49.784 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c1419379-3ddd-41f4-b7b3-41a83d9b4710")
+	)
 	(wire
 		(pts
-			(xy 90.17 73.66) (xy 87.63 73.66)
+			(xy 41.91 36.83) (xy 39.37 36.83)
 		)
 		(stroke
 			(width 0)
@@ -391,7 +1276,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 73.66) (xy 181.61 73.66)
+			(xy 130.81 36.83) (xy 133.35 36.83)
 		)
 		(stroke
 			(width 0)
@@ -401,7 +1286,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 73.66) (xy 97.79 73.66)
+			(xy 49.53 81.28) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235df67a-cdba-4690-aa25-283b04583068")
+	)
+	(wire
+		(pts
+			(xy 86.36 62.23) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "260d7137-1102-4aaa-8d9f-2dac353e3200")
+	)
+	(wire
+		(pts
+			(xy 52.07 36.83) (xy 49.53 36.83)
 		)
 		(stroke
 			(width 0)
@@ -411,7 +1316,67 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 73.66) (xy 191.77 73.66)
+			(xy 49.53 66.04) (xy 46.99 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc19145-e184-486f-9994-335b9e1a36ec")
+	)
+	(wire
+		(pts
+			(xy 49.53 83.82) (xy 46.99 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d726463-e4bc-4bd4-84d1-70f805d2bcee")
+	)
+	(wire
+		(pts
+			(xy 55.88 55.88) (xy 46.99 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c322d6e-3763-402c-894a-97c68d7d2b79")
+	)
+	(wire
+		(pts
+			(xy 49.53 71.12) (xy 46.99 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "756e16f2-b0b1-4884-ace2-5abbf8814b7f")
+	)
+	(wire
+		(pts
+			(xy 49.53 58.42) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d03844-9b78-4306-ab76-04fddd9f6f6e")
+	)
+	(wire
+		(pts
+			(xy 49.53 68.58) (xy 46.99 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd2bddb-7c6f-4c04-b9d4-91b83dfeece6")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 143.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -421,7 +1386,17 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 73.66) (xy 201.93 73.66)
+			(xy 86.36 59.69) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b5fa5eb-c906-4e61-875b-db6271ce84ee")
+	)
+	(wire
+		(pts
+			(xy 151.13 36.83) (xy 153.67 36.83)
 		)
 		(stroke
 			(width 0)
@@ -431,7 +1406,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 73.66) (xy 130.81 73.66)
+			(xy 80.01 36.83) (xy 82.55 36.83)
 		)
 		(stroke
 			(width 0)
@@ -441,7 +1416,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 73.66) (xy 120.65 73.66)
+			(xy 69.85 36.83) (xy 72.39 36.83)
 		)
 		(stroke
 			(width 0)
@@ -451,7 +1426,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 171.45 73.66)
+			(xy 120.65 36.83) (xy 123.19 36.83)
 		)
 		(stroke
 			(width 0)
@@ -461,7 +1436,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 73.66) (xy 140.97 73.66)
+			(xy 49.53 60.96) (xy 46.99 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3dccfae-2c4f-430d-ac37-0258b751df4d")
+	)
+	(wire
+		(pts
+			(xy 90.17 36.83) (xy 92.71 36.83)
 		)
 		(stroke
 			(width 0)
@@ -471,7 +1456,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 73.66) (xy 80.01 73.66)
+			(xy 27.94 36.83) (xy 31.75 36.83)
 		)
 		(stroke
 			(width 0)
@@ -481,7 +1466,17 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 151.13 73.66)
+			(xy 121.92 59.69) (xy 118.11 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd326f2c-17af-4cf0-b1aa-b16873fa695e")
+	)
+	(wire
+		(pts
+			(xy 100.33 36.83) (xy 102.87 36.83)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +1486,37 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 73.66) (xy 110.49 73.66)
+			(xy 49.53 63.5) (xy 46.99 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5eb4981-3ecc-4a54-9b3e-a1589015e11f")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 46.99 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e05ddb0a-84ca-4c5b-9f3e-69aeab6cab73")
+	)
+	(wire
+		(pts
+			(xy 49.53 73.66) (xy 46.99 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0901fe3-5f44-49b8-98d4-1fff462b2256")
+	)
+	(wire
+		(pts
+			(xy 59.69 36.83) (xy 62.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +1526,27 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 73.66) (xy 161.29 73.66)
+			(xy 121.92 62.23) (xy 118.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7eb3d3c-4684-4001-b6f6-31e256035545")
+	)
+	(wire
+		(pts
+			(xy 49.53 76.2) (xy 46.99 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f040028b-8bcf-493b-9b75-789fffbc777d")
+	)
+	(wire
+		(pts
+			(xy 110.49 36.83) (xy 113.03 36.83)
 		)
 		(stroke
 			(width 0)
@@ -509,9 +1554,307 @@
 		)
 		(uuid "f0f928bc-2659-4412-a9e1-3fdf32b50e93")
 	)
+	(wire
+		(pts
+			(xy 49.53 78.74) (xy 46.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f75a21-706a-4ce8-9583-429734bc844d")
+	)
+	(label "8"
+		(at 49.53 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "04ea06f9-f6d9-4868-b067-97cc0686b835")
+	)
+	(label "3"
+		(at 60.96 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d594bed-a89c-4020-b428-f8e22bbd3194")
+	)
+	(label "7"
+		(at 49.53 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "38c7fbf8-b7b6-4765-bfce-d7939f3da803")
+	)
+	(label "1"
+		(at 49.53 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55dc0995-b93f-4138-8d33-e740773e9f6a")
+	)
+	(label "4"
+		(at 49.53 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "596a013f-2a76-470f-b666-b3df39337922")
+	)
+	(label "6"
+		(at 49.53 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5d88e79f-72a5-40d3-9645-0a28f6395801")
+	)
+	(label "11"
+		(at 49.53 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "68bc0784-befc-49e4-92ae-016eb4f8562f")
+	)
+	(label "2"
+		(at 50.8 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "76d461ef-3fbd-4161-ada7-daad03aaa655")
+	)
+	(label "5"
+		(at 81.28 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8df19e66-64fc-48c0-97cd-5ea97622d0e1")
+	)
+	(label "6"
+		(at 91.44 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96d6ca33-d43c-4f39-adde-b958db0c1171")
+	)
+	(label "9"
+		(at 121.92 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c7a438b-f8d1-4075-9589-de71887bde1e")
+	)
+	(label "2"
+		(at 49.53 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a128bdc0-1812-4919-afbb-c2f26c4be1c7")
+	)
+	(label "3"
+		(at 49.53 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2adeaef-3f1b-40d2-aecb-46840eda2a45")
+	)
+	(label "8"
+		(at 111.76 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5c72699-8c2f-430e-bdb3-1fddbd70c9dd")
+	)
+	(label "7"
+		(at 101.6 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afc207d3-dae0-4eb2-a4e0-41a6c6dc6605")
+	)
+	(label "10"
+		(at 49.53 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5cd0041-df5c-4a7f-b151-63d3cc1060a2")
+	)
+	(label "11"
+		(at 140.97 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c476f785-8f11-4f3c-8d40-b30fcb4f5edc")
+	)
+	(label "4"
+		(at 71.12 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb492aae-2162-4bf3-b548-a85966ba1a29")
+	)
+	(label "5"
+		(at 49.53 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd21eedf-d19f-41e3-a40f-9f6d6efd8731")
+	)
+	(label "10"
+		(at 130.81 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e281793c-a75f-4f71-8954-88eac4fd69eb")
+	)
+	(label "1"
+		(at 40.64 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4e279ce-3a0f-40b4-96ba-825614348d9b")
+	)
+	(label "9"
+		(at 49.53 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f5f5fd3b-3a00-4fca-8325-497d96969353")
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 113.03 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "094adaf5-0a0e-4ed7-b757-850ca06d2098")
+		(property "Reference" "J3"
+			(at 113.665 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT30PW-F"
+			(at 113.665 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 113.03 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d574379c-1e08-4803-9184-3defa969a631")
+		)
+		(pin "2"
+			(uuid "2658c7cb-91cb-459c-974e-49f8d44803ec")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 163.83 73.66 270)
+		(at 115.57 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -520,7 +1863,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d64aaf3-d72e-49b2-9caf-8723031ade07")
 		(property "Reference" "BT10"
-			(at 175.26 66.04 90)
+			(at 127 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -528,15 +1871,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 175.26 68.58 90)
+			(at 127 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 163.83 73.66 0)
+		(property "Footprint" "Unicycle:P Group End"
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +1888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 73.66 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,7 +1897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 73.66 0)
+			(at 115.57 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -578,33 +1921,134 @@
 		)
 	)
 	(symbol
-		(lib_id "Unicycle:Batt")
-		(at 102.87 73.66 270)
+		(lib_id "Connector:Conn_01x13_Socket")
+		(at 41.91 71.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f33e8e1-98d3-40cb-bc0e-451dcd4021b4")
+		(property "Reference" "J1"
+			(at 32.766 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S13B-PH-K-S"
+			(at 32.766 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S13B-PH-K_1x13_P2.00mm_Horizontal"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x13, script generated"
+			(at 41.91 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "76c2ebca-2e47-4b94-80e8-189188ccb179")
+		)
+		(pin "6"
+			(uuid "65e64743-6c77-4bb7-b680-eadc815e7541")
+		)
+		(pin "1"
+			(uuid "9d9980b3-19d1-46f2-b115-aeaff12fa955")
+		)
+		(pin "2"
+			(uuid "31bd02ee-3131-48e5-8c45-c8a3d7602ffd")
+		)
+		(pin "4"
+			(uuid "8ad58bd9-136d-465c-be84-6df903d782e5")
+		)
+		(pin "5"
+			(uuid "856fbf84-285d-4bb6-96c1-1d9359d0071f")
+		)
+		(pin "10"
+			(uuid "52883024-8ab3-4142-aca7-6b8b6dd456ee")
+		)
+		(pin "13"
+			(uuid "d20f9420-0a59-43dd-8bdc-764c48e20223")
+		)
+		(pin "12"
+			(uuid "dbd4be72-860f-4e5c-8846-648a7032fb1e")
+		)
+		(pin "9"
+			(uuid "08ca85e7-7a56-4f74-8355-53d4d14f43e7")
+		)
+		(pin "7"
+			(uuid "05aeae07-cde0-4eb8-b77b-fd18407d4895")
+		)
+		(pin "11"
+			(uuid "6a18c883-b8c1-4268-94ba-1fba5366e06f")
+		)
+		(pin "8"
+			(uuid "b40301b6-2c35-4836-a833-95c415f00785")
+		)
+		(instances
+			(project ""
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 86.36 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65b2ac0b-7020-4c10-ac2d-bc6d2ed93d2c")
-		(property "Reference" "BT4"
-			(at 114.3 66.04 90)
+		(uuid "56af57af-c167-4250-b74b-7739ab88aec1")
+		(property "Reference" "#PWR06"
+			(at 86.36 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 86.36 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 114.3 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 102.87 73.66 0)
+		(property "Footprint" ""
+			(at 86.36 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -613,7 +2057,138 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 73.66 0)
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 86.36 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "228ab131-c4f7-466b-bbe8-06181ac5d4ab")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 86.36 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5996cd2a-dd87-4bb5-b0d2-7b41d80d1137")
+		(property "Reference" "#PWR05"
+			(at 86.36 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 86.36 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 86.36 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b8cfb08-1b2a-4d67-96f6-95c0b0f5ec9b")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Unicycle:Batt")
+		(at 54.61 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b2ac0b-7020-4c10-ac2d-bc6d2ed93d2c")
+		(property "Reference" "BT4"
+			(at 66.04 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 66.04 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Unicycle:P Group End"
+			(at 54.61 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -622,7 +2197,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 102.87 73.66 0)
+			(at 54.61 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,33 +2221,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Unicycle:Batt")
-		(at 72.39 73.66 270)
+		(lib_id "power:+BATT")
+		(at 55.88 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "71fa7fe4-129e-4915-92b2-3b1752daefe5")
-		(property "Reference" "BT1"
-			(at 83.82 66.04 90)
+		(uuid "66893042-756a-4b02-984c-9e30f93afa4e")
+		(property "Reference" "#PWR04"
+			(at 55.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 55.88 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 83.82 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 72.39 73.66 0)
+		(property "Footprint" ""
+			(at 55.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,7 +2257,138 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 73.66 0)
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 55.88 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ebdf9ff-1d3f-4822-93b6-c465b27cf66b")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 121.92 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a663885-6302-4953-aa93-50bdaf5e97b0")
+		(property "Reference" "#PWR08"
+			(at 121.92 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 121.92 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "689300e3-15e9-4e05-b56e-732ada84945d")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Unicycle:Batt")
+		(at 24.13 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "71fa7fe4-129e-4915-92b2-3b1752daefe5")
+		(property "Reference" "BT1"
+			(at 35.56 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 35.56 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Unicycle:P Group Even"
+			(at 24.13 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -690,7 +2397,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 73.66 0)
+			(at 24.13 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -714,8 +2421,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 77.47 62.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7658b972-2855-47be-bd2b-086534af09bb")
+		(property "Reference" "J2"
+			(at 78.105 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XT60PW-F"
+			(at 78.105 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 77.47 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "978b0db9-9fc8-455e-aa60-5781eab034fa")
+		)
+		(pin "2"
+			(uuid "2b6bdc1a-ddc6-41a7-9856-6c2daa33ff4e")
+		)
+		(instances
+			(project ""
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 173.99 73.66 270)
+		(at 125.73 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -724,7 +2499,7 @@
 		(fields_autoplaced yes)
 		(uuid "785bc35c-2ade-44a1-9ecb-18f9ceabc0b2")
 		(property "Reference" "BT11"
-			(at 185.42 66.04 90)
+			(at 137.16 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -732,15 +2507,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 185.42 68.58 90)
+			(at 137.16 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 173.99 73.66 0)
+		(property "Footprint" "Unicycle:P Group 4-5 10-11"
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -749,7 +2524,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 73.66 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,7 +2533,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 73.66 0)
+			(at 125.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +2558,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 184.15 73.66 270)
+		(at 135.89 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -792,7 +2567,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cc91af1-b2df-43aa-a422-ece01a365a83")
 		(property "Reference" "BT12"
-			(at 195.58 66.04 90)
+			(at 147.32 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,15 +2575,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 195.58 68.58 90)
+			(at 147.32 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 184.15 73.66 0)
+		(property "Footprint" "Unicycle:P Group 5-6 11-+"
+			(at 135.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -817,7 +2592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 73.66 0)
+			(at 135.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -826,7 +2601,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 73.66 0)
+			(at 135.89 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +2626,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 82.55 73.66 270)
+		(at 34.29 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -860,7 +2635,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d6eba7f-6d7d-44dd-9fea-d61941cb7760")
 		(property "Reference" "BT2"
-			(at 93.98 66.04 90)
+			(at 45.72 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,15 +2643,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 93.98 68.58 90)
+			(at 45.72 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 82.55 73.66 0)
+		(property "Footprint" "Unicycle:P Group Even"
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -885,7 +2660,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 73.66 0)
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -894,7 +2669,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 73.66 0)
+			(at 34.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,16 +2694,16 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 201.93 73.66 0)
+		(at 121.92 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa01c8a8-9a5c-41eb-b9b7-b916da2fda3a")
-		(property "Reference" "#PWR02"
-			(at 201.93 77.47 0)
+		(uuid "a984b090-272c-4577-8964-6528f7ea7af4")
+		(property "Reference" "#PWR07"
+			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -937,7 +2712,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 201.93 68.58 0)
+			(at 121.92 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -945,7 +2720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 73.66 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +2729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 73.66 0)
+			(at 121.92 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +2738,73 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 201.93 73.66 0)
+			(at 121.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0df90188-a05d-4f74-b1aa-7c4044061a58")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 153.67 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa01c8a8-9a5c-41eb-b9b7-b916da2fda3a")
+		(property "Reference" "#PWR02"
+			(at 153.67 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 153.67 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,33 +2825,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Unicycle:Batt")
-		(at 143.51 73.66 270)
+		(lib_id "power:-BATT")
+		(at 55.88 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c40fab2e-f766-48c7-b7b3-d7e818dd536c")
-		(property "Reference" "BT8"
-			(at 154.94 66.04 90)
+		(uuid "b7bce169-eb1c-4bfc-88f7-3eeb49a29591")
+		(property "Reference" "#PWR01"
+			(at 55.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 55.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 154.94 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 143.51 73.66 0)
+		(property "Footprint" ""
+			(at 55.88 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1019,7 +2861,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 73.66 0)
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 55.88 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dff14e0-5ff5-46c3-9213-e121ed9b3a81")
+		)
+		(instances
+			(project "Unicycle Battery"
+				(path "/d1cd8537-56f0-4291-8d25-fe29b385b4b9"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Unicycle:Batt")
+		(at 95.25 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c40fab2e-f766-48c7-b7b3-d7e818dd536c")
+		(property "Reference" "BT8"
+			(at 106.68 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 106.68 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Unicycle:P Group Even"
+			(at 95.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1028,7 +2935,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 73.66 0)
+			(at 95.25 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +2960,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 123.19 73.66 270)
+		(at 74.93 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1062,7 +2969,7 @@
 		(fields_autoplaced yes)
 		(uuid "ca9e9251-6c3c-4b7c-918c-e0f59fde224a")
 		(property "Reference" "BT6"
-			(at 134.62 66.04 90)
+			(at 86.36 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,15 +2977,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 134.62 68.58 90)
+			(at 86.36 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 123.19 73.66 0)
+		(property "Footprint" "Unicycle:P Group 5-6 11-+"
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +2994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 73.66 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +3003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 73.66 0)
+			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1121,7 +3028,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 133.35 73.66 270)
+		(at 85.09 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1130,7 +3037,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3d35fd5-afb2-431b-801c-ede15d39d99f")
 		(property "Reference" "BT7"
-			(at 144.78 66.04 90)
+			(at 96.52 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,15 +3045,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 144.78 68.58 90)
+			(at 96.52 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 133.35 73.66 0)
+		(property "Footprint" "Unicycle:P Group Even"
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +3062,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 73.66 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +3071,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 73.66 0)
+			(at 85.09 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +3096,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 113.03 73.66 270)
+		(at 64.77 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1198,7 +3105,7 @@
 		(fields_autoplaced yes)
 		(uuid "dccd3e06-4e15-48e5-a823-cc7607bef398")
 		(property "Reference" "BT5"
-			(at 124.46 66.04 90)
+			(at 76.2 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,15 +3113,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 124.46 68.58 90)
+			(at 76.2 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 113.03 73.66 0)
+		(property "Footprint" "Unicycle:P Group 4-5 10-11"
+			(at 64.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +3130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 73.66 0)
+			(at 64.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,7 +3139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 73.66 0)
+			(at 64.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +3164,7 @@
 	)
 	(symbol
 		(lib_id "power:-BATT")
-		(at 76.2 73.66 180)
+		(at 27.94 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1266,7 +3173,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2c474f4-0695-4fa8-8040-4de3397dceae")
 		(property "Reference" "#PWR03"
-			(at 76.2 69.85 0)
+			(at 27.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +3182,7 @@
 			)
 		)
 		(property "Value" "-BATT"
-			(at 76.2 78.74 0)
+			(at 27.94 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1283,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 73.66 0)
+			(at 27.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1292,7 +3199,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 73.66 0)
+			(at 27.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +3208,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-BATT\""
-			(at 76.2 73.66 0)
+			(at 27.94 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1323,7 +3230,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 153.67 73.66 270)
+		(at 105.41 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1332,7 +3239,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5a03cb6-f05f-4aa8-be77-74daa4d6784f")
 		(property "Reference" "BT9"
-			(at 165.1 66.04 90)
+			(at 116.84 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +3247,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 165.1 68.58 90)
+			(at 116.84 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +3255,7 @@
 			)
 		)
 		(property "Footprint" "Unicycle:P Group"
-			(at 153.67 73.66 0)
+			(at 105.41 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1357,7 +3264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 153.67 73.66 0)
+			(at 105.41 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1366,7 +3273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 153.67 73.66 0)
+			(at 105.41 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1391,7 +3298,7 @@
 	)
 	(symbol
 		(lib_id "Unicycle:Batt")
-		(at 92.71 73.66 270)
+		(at 44.45 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1400,7 +3307,7 @@
 		(fields_autoplaced yes)
 		(uuid "f828d9a4-39e2-4f19-ba7e-d3a8e1c95070")
 		(property "Reference" "BT3"
-			(at 104.14 66.04 90)
+			(at 55.88 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,15 +3315,15 @@
 			)
 		)
 		(property "Value" "~"
-			(at 104.14 68.58 90)
+			(at 55.88 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Unicycle:P Group"
-			(at 92.71 73.66 0)
+		(property "Footprint" "Unicycle:P Group End"
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +3332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 73.66 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1434,7 +3341,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 92.71 73.66 0)
+			(at 44.45 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

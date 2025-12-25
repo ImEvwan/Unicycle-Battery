@@ -1,4 +1,4 @@
-(footprint "P Group"
+(footprint "P Group 4-5 10-11"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "P Group"
+	(property "Value" "P Group 4-5 10-11"
 		(at 0 38.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -62,30 +62,8 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "6a28742a-7412-4993-a73c-006e51f3285e")
-	)
-	(fp_rect
-		(start -36.500144 -21.504223)
-		(end -35.500144 21.495777)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "cf5d7037-5310-4ef8-874c-6dbf7d3938b7")
-	)
-	(fp_rect
-		(start 35.500144 -21.504223)
-		(end 36.500144 21.495777)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(fill no)
-		(layer "Edge.Cuts")
-		(uuid "783b750e-f01c-44d9-a795-c9e67362cbaa")
 	)
 	(fp_text user "-"
 		(at 10 -0.75 0)
@@ -152,14 +130,14 @@
 	(pad "+" smd rect
 		(at -25 0)
 		(size 19 43)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "d9ea801f-89cf-44e8-a33f-1298c57db163")
+		(layers "F.Cu")
+		(uuid "7d22a5a2-41cb-4b33-a420-d53a0592de14")
 	)
-	(pad "-" smd rect
-		(at 25 0)
+	(pad "+" smd rect
+		(at -25 0)
 		(size 19 43)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "681f88ca-731b-402e-813e-06e7ca121480")
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d9ea801f-89cf-44e8-a33f-1298c57db163")
 	)
 	(embedded_fonts no)
 )
