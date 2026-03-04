@@ -2207,7 +2207,7 @@
 		(uuid "5a3e29e2-f610-479c-bd08-d97503d4535f")
 		(at 219 307.05)
 		(property "Reference" "BT1"
-			(at 0 37 0)
+			(at 0 33.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "fdaeaccc-7c78-40e1-b2df-fba9ce1097a9")
@@ -2897,7 +2897,7 @@
 		(uuid "87411291-b2ea-4f04-8631-9a9419bbf3c8")
 		(at 75 307.05)
 		(property "Reference" "BT3"
-			(at 0 37 0)
+			(at 0 34 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "7e2d2b78-3a50-4cc2-a331-1f55ffe175c1")
@@ -3246,7 +3246,7 @@
 		(uuid "8f116853-ee99-440d-a077-006ca9448161")
 		(at 147 307.05)
 		(property "Reference" "BT2"
-			(at 0 37 0)
+			(at 0 33.5 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "8804fcbc-855f-4007-98ac-edfdc5775a2b")
